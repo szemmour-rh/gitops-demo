@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: main-project
   source:
-    path: gitops-demo/tenants/tenants-1
+    path: tenants/tenants-1
     repoURL: https://github.com/szemmour-rh/gitops-demo
     targetRevision: main
     directory:
