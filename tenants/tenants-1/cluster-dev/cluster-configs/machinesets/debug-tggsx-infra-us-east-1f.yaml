@@ -65,5 +65,4 @@ spec:
             value: owned
           userDataSecret:
             name: worker-user-data
-      versions:
-        kubelet: ""
+
