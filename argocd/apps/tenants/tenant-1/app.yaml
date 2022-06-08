@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: default
     server: https://kubernetes.default.svc
-  project: main-project
+  project: default
   source:
     path: tenants/tenants-1/cluster-dev/cluster-configs/machinesets
     repoURL: https://github.com/szemmour-rh/gitops-demo
