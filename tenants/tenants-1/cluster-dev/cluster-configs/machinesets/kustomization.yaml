@@ -1,7 +1,10 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-resources:
+
+bases:
 - ../../../../../cluster-configs/machinesets/base
+
+resources:
 - debug-tggsx-infra-us-east-1d.yaml
 - debug-tggsx-infra-us-east-1f.yaml
 - debug-tggsx-infra-us-east-1c.yaml
